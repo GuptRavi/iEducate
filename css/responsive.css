@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1014px){
+  .navbar{
+    height: 400px;
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+  }
+  .nav-list{
+    flex-direction: column;
+  }
+  .rightNav{
+    margin: 0%;
+    flex-direction: column;
+  }
+  .logo img{
+  width: 50px;
+  }
+  #search{
+    width: 100%;
+  }
+  #btnWatch{
+    margin: 0;
+  }
+
+  .firstSection{
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .section{
+    flex-direction: column-reverse;
+  }
+  .paras{
+    padding: 0;
+  }
+
+  .text-small{
+    /* text-align: justify; */
+    /* text-align: center; */
+  }
+  .text-big{
+    /* text-align: justify; */
+    /* text-align: center; */
+  }
+  .buttons{
+    text-align: center;
+  }
+  
+
+  /* making ham-Burger functional */
+  .burger{
+    display: block;
+  }
+  .h-nav-resp{
+    height: 70px;
+  }
+  .v-class-resp{
+    opacity: 0;
+  }
+  
+}
+
+
+@media only screen and (min-width:280px) and (max-width: 322px){
+  *{
+    /* overflow-x: hidden; */
+  }
+  
+  .thumbnail img {
+    max-width: 200px;
+    height: 150px;
+  }
+
+  .text-footer{
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.7) url(../img/bg1.jpg);
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo{
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 50px;
+  border: 2px solid white;
+  /* border-radius: 50%; */
+  border-radius: 5px 20px 5px;
+}
+
+.nav-list{
+  width: 70%;
+  /* background-color: rgb(8, 15, 15); */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.nav-list li{
+  list-style: none;
+  padding: 18px 15px
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-list li a:hover{
+  background-color: white;
+  color: rgb(93, 93, 93);
+  /* border-radius: 8px; */
+  border-radius: 5px 20px 5px;
+}
+
+.rightNav{
+  /* background-color: deepskyblue; */
+  width: 30%;
+  /* text-align: right; /* to put the search-box to the right of the screen*/
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+    /* align-content: center; */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+#search{
+  padding: 4px 8px;
+  font-size: 14px;
+  /* border: 2px solid grey; */
+  border: 2px inset #b0b0b5a1;
+  border-radius: 9px;
+  outline: none;
+  margin-right: 5px;
+}
+
+.btn {
+  border: none;
+  border: 2px inset #f0f0f4a1;
+  font-size: 17px;
+  cursor: pointer;
+  text-shadow: 1px 1px 4px #4c4fada1;
+  background: none;
+  color: white;
+  padding: 7px 11px;
+  font-family: monospace;
+  outline: none;
+  border-radius: 9px;
+  margin: 10px 4px;
+  box-shadow: 1px 1px 3px #7593a6;
+}
+.btn:hover {
+  background-color: #16184b;
+  color: rgb(249, 208, 136);
+  text-shadow: 1px 1px 8px wheat;
+}
+.btn:active {
+  background-color: snow;
+  color: #3b3e93;
+}
+.btn-sm{
+  /* margin-right: 30px; */
+  font-size: 12px;
+  padding: 5px 11px;
+  box-shadow: none;
+  vertical-align: center;
+}
+#btnWatch{
+  margin-left: 20px;
+}
+
+.firstSection{
+  height: 92vh;
+  /* height: 100vh; */
+}
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 70%;
+}
+.firstHalf{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-big{
+  font-size: 35px;
+}
+.text-small{
+  font-size: 17px;
+  text-align: justify;
+  margin: 10px 0px;
+}
+.secondHalf{
+  width: 30%;
+}
+.secondHalf img{
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  /* to centre it */
+  display: block;
+  margin: auto;
+}
+
+
+.section{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+}
+.first{
+  margin-top: 40px;
+}
+.section-left{
+  flex-direction: row-reverse;
+}
+.sectionTag{
+  padding: 10px 0;
+}
+.sectionSubTag{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paras{
+  padding: 0px 55px;
+}
+/* .imgFluid{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  filter: invert(1);
+  filter: contrast(5);
+  filter: brightness(1);
+  zoom: 110%;
+} */
+.thumbnail img{
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 1px;
+  margin-top: 30px;
+}
+
+
+.contact{
+  background-color: rgb(250 215 215 / 36%);
+  height: auto;
+  /* height: 35vh; */
+  margin-top: 30px;
+}
+.text-center{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+}
+.form{
+  max-width: 100%;
+  padding-bottom: 30px;
+  margin: 15px auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-input{
+  width: 60%;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 3px 6px;
+  outline: none;
+  margin: 10px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-Black{
+  color: black;
+  border: 2px inset #f0f0f4a1;
+  outline: 1px outset rgb(184, 165, 165);
+  padding: 4px 15px;
+}
+
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.838);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-footer {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 15px 0px;
+}
+
+
+/* creating ham-Burger */
+.burger{
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+.line{
+  width: 33px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 3px;
+}
